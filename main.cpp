@@ -276,9 +276,9 @@ std::vector<bool> boxToVector(uint32_t ySize, uint32_t xSize, SecureBox& box)
 // For example: for matrix 3*3 and element (1, 1), element influence in matrix form
 // looks like:
 //	
-//  |0	 1	 0|
-//  |1	 1	 1|
-//  |0	 1	 0|
+//  |0  1  0|
+//  |1  1  1|
+//  |0  1  0|
 // 
 // Function returns vector [0, 1, 0, 1, 1, 1, 0, 1, 0]
 // 
